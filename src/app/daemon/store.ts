@@ -80,7 +80,7 @@ export class DaemonStore {
             },
         )
         this.root.navigation.showLoading()
-        this.update()
+        this.start()
     }
 
     setStartupStatus(status: StartupStatus): void {
